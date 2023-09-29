@@ -1,10 +1,13 @@
 # yiwu0288_9103_tut1
 
-##Part 1: Imaging Technique Inspiration
-我发现了分形艺术，这是一种通过计算分形对象并将计算结果表示为静态图像、动画和媒体而创建的算法艺术形式。分形是在不同尺度上自相似的复杂模式，这意味着它们是通过在持续的反馈循环中一遍又一遍地重复一个简单的过程而创建的。我可以利用分形艺术来探索数学、自然和几何的美丽和复杂性。我可以尝试不同的参数、颜色、形状和变换来制作独特且多样化的艺术品。我还可以将分形艺术与声音、交互性或动画等其他技术相结合，以增强编码项目的功能和表现力。
+## Part 1: Imaging Technique Inspiration
+I discovered fractal art, an algorithmic art form created by calculating fractal objects and representing the results of the calculations as still images, animations, and media. Fractals are complex patterns that are self-similar at different scales, meaning they are created by repeating a simple process over and over in an ongoing feedback loop. I can use fractal art to explore the beauty and complexity of mathematics, nature, and geometry. I can experiment with different parameters, colors, shapes, and transformations to create unique and diverse artwork. I can also combine fractal art with other technologies such as sound, interactivity, or animation to enhance the functionality and expressiveness of coding projects.
 
 ![Fractal1](./pic1.png)
 ![Fractal2](./pic2.png)
 
-##Part 2: Coding Technique Exploration
-要进行分形艺术的编码技巧，可以使用 递归函数 来生成分形图形。递归函数是一种在自身定义中调用自身的函数，它可以实现分形的无限次迭代和自相似性的特征。可以使用递归函数来绘制各种几何分形，如科赫雪花、谢尔宾斯基三角形、龙形曲线等，只需要定义一个基本的图形单元和一个迭代规则，然后让函数不断地重复调用自身，就可以生成复杂而美丽的分形图案。This is an example of [drawing Koch snowflake with recursions](https://betterprogramming.pub/learning-p5-js-by-making-fractals-cbdcac5c651e).科赫雪花是一种由三个科赫曲线组成的分形图案，每个曲线都是由一个直线段不断地变换而成。这个程序使用了p5.js提供的line()和rotate()函数来绘制科赫曲线，并且使用了递归函数来重复这个过程。这个程序还使用了mouseX变量来控制科赫曲线的深度，从而实现交互式的效果。
+## Part 2: Coding Technique Exploration
+For coding tips on fractal art, you can use recursive functions to generate fractal graphics. A recursive function is a function that calls itself in its own definition, which can achieve infinite iterations and self-similarity characteristics of fractals. You can use recursive functions to draw various geometric fractals, such as Koch snowflakes, Sierpinski triangles, dragon curves, etc. You only need to define a basic graphics unit and an iteration rule, and then let the function call itself repeatedly. Generate complex and beautiful fractal patterns.This is an example of [drawing Koch snowflake with recursions](https://betterprogramming.pub/learning-p5-js-by-making-fractals-cbdcac5c651e).The Koch Snowflake is a fractal pattern consisting of three Koch curves, each of which is formed by a continuous transformation of a straight line segment. This program uses the line() and rotate() functions provided by p5.js to draw the Koch curve, and uses a recursive function to repeat the process. This program also uses the mouseX variable to control the depth of the Koch curve to achieve interactive effects.
+
+![code example3](./pic3.png)
+![code example4](./pic4.png)
