@@ -1,4 +1,10 @@
 # yiwu0288_9103_tut1
 
-This is a repo that I will use to learn githun.
-this is
+##Part 1: Imaging Technique Inspiration
+我发现了分形艺术，这是一种通过计算分形对象并将计算结果表示为静态图像、动画和媒体而创建的算法艺术形式。分形是在不同尺度上自相似的复杂模式，这意味着它们是通过在持续的反馈循环中一遍又一遍地重复一个简单的过程而创建的。我可以利用分形艺术来探索数学、自然和几何的美丽和复杂性。我可以尝试不同的参数、颜色、形状和变换来制作独特且多样化的艺术品。我还可以将分形艺术与声音、交互性或动画等其他技术相结合，以增强编码项目的功能和表现力。
+
+![Fractal1](./pic1.png)
+![Fractal2](./pic2.png)
+
+##Part 2: Coding Technique Exploration
+要进行分形艺术的编码技巧，可以使用 递归函数 来生成分形图形。递归函数是一种在自身定义中调用自身的函数，它可以实现分形的无限次迭代和自相似性的特征。可以使用递归函数来绘制各种几何分形，如科赫雪花、谢尔宾斯基三角形、龙形曲线等，只需要定义一个基本的图形单元和一个迭代规则，然后让函数不断地重复调用自身，就可以生成复杂而美丽的分形图案。This is an example of [drawing Koch snowflake with recursions](https://betterprogramming.pub/learning-p5-js-by-making-fractals-cbdcac5c651e).科赫雪花是一种由三个科赫曲线组成的分形图案，每个曲线都是由一个直线段不断地变换而成。这个程序使用了p5.js提供的line()和rotate()函数来绘制科赫曲线，并且使用了递归函数来重复这个过程。这个程序还使用了mouseX变量来控制科赫曲线的深度，从而实现交互式的效果。
